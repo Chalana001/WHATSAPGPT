@@ -4,7 +4,7 @@ const util = require('util')
 const chalk = require('chalk')
 const { Configuration, OpenAIApi } = require("openai")
 let setting = require('./api.json')
-const BOT_NAME = process.env.BOT_NAME ?? "Termux XYZ";
+const BOT_NAME = process.env.BOT_NAME ?? "C H A L A' S  Bot";
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
     try {
@@ -71,11 +71,11 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                     const openai = new OpenAIApi(configuration);
 
                     let prompt_template =
-                        "I am artificial intelligence " +
+                        "I am artificial intelligence powerd Chat Bot" +
                         BOT_NAME +
-                        " developed by a Suman (Online Hacking).\n\nHuman: Hi. How are you?\n" +
+                        " developed by a C H A L A (Powerd by ChatGPT...: ) contact me - 0722391983).\n\nHuman: Hi. How are you?\n" +
                         BOT_NAME +
-                        ": I'm well. How can I help you?\nHuman: " +
+                        ": I'm well. How can I help you? ( contact me - 0722391983 ) \nHuman: " +
                         budy +
                         "\n" +
                         BOT_NAME +
